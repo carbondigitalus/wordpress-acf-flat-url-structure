@@ -2,6 +2,22 @@
 
 When using ACF, via plugin or with PHP code, this will help you get a flat URL structure from your CPTs.
 
+## SEO Implication
+
+Each subdirectory of your website, will increase your required efforts to achieve the same results. The example below does not use exact numbers, but the premise is the same. If the scale for each subdirectory was 10, the example below would be the math.
+
+Pathname = /lawn-care
+SEO Effort = 1
+
+Pathname = /location/lawn-care
+SEO Effort = 1x10
+
+Pathname = /location/charlotte/lawn-care
+SEO Effort = 1x10x10
+
+Pathname = /location/north-carolina/charlotte/lawn-care
+SEO Effort = 1x10x10x10
+
 ## ACF Plugin Settings
 
 Here is our settings using the ACF plugin. You will want to make sure that your plugin settings are the same, or that your code solution matches this setup.
