@@ -11,3 +11,11 @@ Here is our settings using the ACF plugin. You will want to make sure that your 
 ## Custom PHP Code
 
 Using our code, paste it in your `functions.php` file, or using a custom code plugin. We use Advanced Scripts, but something like Code Snippets would also work.
+
+### Update Code Before You Use It
+
+The below snippet needs to be updated to cover all of the CPT slugs that you want this to be applied to. EACH FUNCTION has this snippet. Make sure you update both functions.
+
+```php
+$post_types = ['service', 'product'];
+```
