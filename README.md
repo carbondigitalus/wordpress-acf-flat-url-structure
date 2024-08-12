@@ -35,3 +35,9 @@ The below snippet needs to be updated to cover all of the CPT slugs that you wan
 ```php
 $post_types = ['service', 'product'];
 ```
+
+## Versions 
+
+WordPress - 6.5.5
+ACF - 6.3.5
+Advanced Scripts - 2.5.2
