@@ -39,5 +39,7 @@ $post_types = ['service', 'product'];
 ## Versions 
 
 WordPress - 6.5.5
+<br />
 ACF - 6.3.5
+<br />
 Advanced Scripts - 2.5.2
